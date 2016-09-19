@@ -8,6 +8,8 @@ The Chrome Dev Tools Cheatsheet refers and allows you to easily share all built-
 From the official documentation, you have the choice between two platforms (Mac or Windows).
 
 ### Screenshots
-![Screen1](http://img15.hostingpics.net/pics/950588Screenshot20160919213425.png)
-![Screen2](http://img15.hostingpics.net/pics/797306Screenshot20160919213443.png)  
+<p align="center">
+    <img height="400px" src="http://img15.hostingpics.net/pics/950588Screenshot20160919213425.png">
+    <img height="400px" src="http://img15.hostingpics.net/pics/797306Screenshot20160919213443.png">
+</p>  
 

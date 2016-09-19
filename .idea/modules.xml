@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ChromeDevToolsCheatsheet.iml" filepath="$PROJECT_DIR$/ChromeDevToolsCheatsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-chromedevtools-cheatsheet.iml" filepath="$PROJECT_DIR$/android-chromedevtools-cheatsheet.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

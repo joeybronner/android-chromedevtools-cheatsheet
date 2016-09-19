@@ -1,0 +1,246 @@
+<resources>
+    <!-- Application -->
+    <string name="app_name">Chrome Dev Tools Cheatsheet</string>
+    <string name="githubrepo"><a href="http://github.com/joeybronner/android-chromedevtools-cheatsheet">Github Repository</a></string>
+    <string name="app_description">Chrome DevTools has several built-in shortcut keys that can save you time in your daily workflows</string>
+    <string name="app_github_description">Feel free to clone, star, fork or simply contribute to these app following this link:</string>
+    <string name="app_lastupdate">Last update: 22/09/2016</string>
+    <string name="developer_name">Joey Bronner</string>
+    <string name="developer_links">http://joeybronner.fr - contact@joeybronner.fr</string>
+
+    <!-- Main -->
+    <string name="app_sentence">All starts by launching</string>
+    <string name="app_product_name">Chrome Dev Tools</string>
+
+    <!-- Categories -->
+    <string name="title_activity_categories">Categories</string>
+    <string name="activity_categories_launch">Select a category or click on the search button</string>
+
+    <!-- Commands -->
+    <string name="title_activity_list_of_commands">Commands</string>
+    <string name="activity_list_of_commands_launch">List of commands for</string>
+    <string name="share_title">Share command</string>
+    <string name="share_sentence">This awesome command allows you to</string>
+    <string name="share_sentence_app">(shared from Chrome Dev Tools Cheatsheet for Android))</string>
+
+    <!-- Global -->
+    <string-array name="global_commands_win">
+        <item>F1</item>
+        <item>Ctrl + ]</item>
+        <item>Ctrl + [</item>
+        <item>Ctrl + Alt + [</item>
+        <item>Ctrl + Alt + ]</item>
+        <item>Ctrl + Shift + D</item>
+        <item>Ctrl + Shift + M</item>
+        <item>Esc</item>
+        <item>F5, CTRL + R</item>
+        <item>Ctrl + F5</item>
+        <item>Ctrl + F</item>
+        <item>Ctrl + Shift + F</item>
+        <item>Ctrl + O</item>
+        <item>Ctrl + +</item>
+        <item>Ctrl + -</item>
+        <item>Ctrl + 0</item>
+    </string-array>
+    <string-array name="global_commands_mac">
+        <item>[?]</item>
+        <item>Cmd + ]</item>
+        <item>Cmd + [</item>
+        <item>Cmd + Opt + [</item>
+        <item>Cmd + Opt + ]</item>
+        <item>Cmd + Shift + D</item>
+        <item>Cmd + Shift + M</item>
+        <item>Esc</item>
+        <item>Cmd + R</item>
+        <item>Cmd + Shift + R</item>
+        <item>Cmd + F</item>
+        <item>Cmd + Shift + F</item>
+        <item>Cmd + O</item>
+        <item>Shift + +</item>
+        <item>Shift + -</item>
+        <item>Shift + 0</item>
+    </string-array>
+    <string-array name="global_text">
+        <item>Show General Settings dialog</item>
+        <item>Next panel</item>
+        <item>Previous panel</item>
+        <item>Backward in panel History</item>
+        <item>Forward in panel history</item>
+        <item>Change docking location</item>
+        <item>Open device mode</item>
+        <item>Toggle Console / close settings dialog when open</item>
+        <item>Refresh the page</item>
+        <item>Refresh the page ignoring cached content</item>
+        <item>Text search within current file or panel</item>
+        <item>Text search across all sources</item>
+        <item>Search by filename (except on Timeline)</item>
+        <item>Zoom in (while focused in DevTools)</item>
+        <item>Zoom out</item>
+        <item>Restore default text size</item>
+    </string-array>
+    <!-- Elements -->
+    <string-array name="elements_commands_win">
+        <item>Ctrl + Z</item>
+        <item>Ctrl + Y</item>
+        <item>Up, down</item>
+        <item>Right, left</item>
+        <item>Single click on arrow</item>
+        <item>Ctrl + Alt + Click on arrow icon</item>
+        <item>Enter, click on attribute</item>
+        <item>H</item>
+        <item>F2</item>
+    </string-array>
+    <string-array name="elements_commands_mac">
+        <item>Cmd + Z</item>
+        <item>Cmd + Y</item>
+        <item>Up, down</item>
+        <item>Right, left</item>
+        <item>Single click on arrow</item>
+        <item>Opt + Click on arrow icon</item>
+        <item>Enter, click on attribute</item>
+        <item>H</item>
+        <item>Not possible on mac (only windows)</item>
+    </string-array>
+    <string-array name="elements_text">
+        <item>Undo change</item>
+        <item>Redo change</item>
+        <item>Navigate</item>
+        <item>Expand / collapse node</item>
+        <item>Expand node</item>
+        <item>Expand / collapse node and all its children</item>
+        <item>Edit attribute</item>
+        <item>Hide attribute</item>
+        <item>Toggle edit as HTML</item>
+    </string-array>
+    <!-- Sources -->
+    <string-array name="sources_commands_win">
+        <item>F8</item>
+        <item>F10</item>
+        <item>F11</item>
+        <item>Shift + F11</item>
+        <item>Ctrl + .</item>
+        <item>Ctrl + ,</item>
+        <item>Ctrl + B</item>
+        <item>Right click on line</item>
+        <item>Ctrl + Delete</item>
+        <item>Ctrl + /</item>
+        <item>Ctrl + S</item>
+        <item>Ctrl + Alt + S</item>
+        <item>Ctrl + G</item>
+        <item>Ctrl + O</item>
+        <item>Ctrl + P + :number</item>
+        <item>Ctrl + O + :number + :number</item>
+        <item>Ctrl + Shift + O</item>
+        <item>Alt + W</item>
+        <item>Ctrl + Enter</item>
+    </string-array>
+    <string-array name="sources_commands_mac">
+        <item>F8</item>
+        <item>F10</item>
+        <item>F11</item>
+        <item>Shift + F11</item>
+        <item>Opt + .</item>
+        <item>Opt + ,</item>
+        <item>Ctrl + B</item>
+        <item>Right click on line</item>
+        <item>Opt + Delete</item>
+        <item>Cmd + /</item>
+        <item>Cmd + S</item>
+        <item>Cmd + Opt + S</item>
+        <item>Cmd + G</item>
+        <item>Cmd + O</item>
+        <item>Cmd + P + :number</item>
+        <item>Cmd + O + :number + :number</item>
+        <item>Cmd + Shift + O</item>
+        <item>Opt + W</item>
+        <item>Cmd + Enter</item>
+    </string-array>
+    <string-array name="sources_text">
+        <item>Pause / resume script execution</item>
+        <item>Step over next function call</item>
+        <item>Step into next function call</item>
+        <item>Step out of current function</item>
+        <item>Select next call frame</item>
+        <item>Select previous call frame</item>
+        <item>Toggle breakpoint condition</item>
+        <item>Edit breakpoint condition</item>
+        <item>Delete individual words</item>
+        <item>Comment a line or selected text</item>
+        <item>Save changes to local modifications</item>
+        <item>Save all changes</item>
+        <item>Go to line</item>
+        <item>Search by filename</item>
+        <item>Jump to line number</item>
+        <item>Jump to colone</item>
+        <item>Go to member</item>
+        <item>Close active tab</item>
+        <item>Run snippet</item>
+    </string-array>
+    <!-- Timeline -->
+    <string-array name="timeline_commands_win">
+        <item>Ctrl + E</item>
+        <item>Ctrl + S</item>
+        <item>Ctrl + O</item>
+    </string-array>
+    <string-array name="timeline_commands_mac">
+        <item>Cmd + E</item>
+        <item>Cmd + S</item>
+        <item>Cmd + O</item>
+    </string-array>
+    <string-array name="timeline_text">
+        <item>Start / stop recording</item>
+        <item>Save timeline data</item>
+        <item>Load timeline data</item>
+    </string-array>
+    <!-- Profiles -->
+    <string-array name="profiles_commands_win">
+        <item>Ctrl + E</item>
+    </string-array>
+    <string-array name="profiles_commands_mac">
+        <item>Cmd + E</item>
+    </string-array>
+    <string-array name="profiles_text">
+        <item>Start / stop recording</item>
+    </string-array>
+    <!-- Console -->
+    <string-array name="console_commands_win">
+        <item>Right</item>
+        <item>Up</item>
+        <item>Down</item>
+        <item>Ctrl + `</item>
+        <item>Ctrl + L</item>
+        <item>Shift + Enter</item>
+        <item>Enter</item>
+    </string-array>
+    <string-array name="console_commands_mac">
+        <item>Right</item>
+        <item>Up</item>
+        <item>Down</item>
+        <item>Cmd + `</item>
+        <item>Cmd + K</item>
+        <item>Cmd + Return</item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="console_text">
+        <item>Accept suggestion</item>
+        <item>Previous command / line</item>
+        <item>Next command / line</item>
+        <item>Focus the Console</item>
+        <item>Clear Console</item>
+        <item>Multi-line entry</item>
+        <item>Execute</item>
+    </string-array>
+    <!-- Device mode -->
+    <string-array name="devicemode_commands_win">
+        <item>Alt + Scroll</item>
+        <item>Ctrl + Shift + C</item>
+    </string-array>
+    <string-array name="devicemode_commands_mac">
+        <item>Opt + Scroll</item>
+        <item>Cmd + Shift + C</item>
+    </string-array>
+    <string-array name="devicemode_text">
+        <item>Pinch zoom in and out</item>
+        <item>Inspect element tool</item>
+    </string-array>
+</resources>

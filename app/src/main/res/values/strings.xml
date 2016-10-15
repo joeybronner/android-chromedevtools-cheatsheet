@@ -1,8 +1,8 @@
 <resources>
     <!-- Application -->
-    <string name="app_name">Chrome DevTools CheatSheet</string>
+    <string name="app_name">DevTools CheatSheet</string>
     <string name="githubrepo"><a href="http://github.com/joeybronner/android-chromedevtools-cheatsheet">Github Repository</a></string>
-    <string name="app_description">Chrome DevTools has several built-in shortcut keys that can save you time in your daily workflows</string>
+    <string name="app_description">DevTools has several built-in shortcut keys that can save you time in your daily workflows</string>
     <string name="app_github_description">Feel free to clone, star, fork or simply contribute to these app following this link:</string>
     <string name="app_lastupdate">Last update: 22/09/2016</string>
     <string name="developer_name">Joey Bronner</string>

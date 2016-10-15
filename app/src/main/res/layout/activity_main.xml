@@ -29,25 +29,31 @@
              android:layout_weight="1"
              android:gravity="center">
 
-                <TextView
-                    android:id="@+id/sentence1"
-                    android:layout_marginBottom="@dimen/activity_vertical_margin"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/app_sentence"
-                    android:textColor="@color/lightGray"
-                    android:textSize="20dp"
-                    android:textAlignment="center"/>
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/sentence1"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_sentence"
+                        android:textColor="@color/lightGray"
+                        android:textSize="20dp"
+                        android:textAlignment="center"/>
 
-             <com.hanks.htextview.HTextView
-                 android:id="@+id/text"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:padding="10dp"
-                 android:gravity="center"
-                 android:textColor="@color/white"
-                 android:textSize="40sp"
-                 htext:fontAsset="fonts/Roboto-Light.ttf" />
+                    <com.hanks.htextview.HTextView
+                        android:id="@+id/text"
+                        android:layout_below="@+id/sentence1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        htext:fontAsset="fonts/Roboto-Light.ttf" />
+                </RelativeLayout>
+
 
         </LinearLayout>
 
